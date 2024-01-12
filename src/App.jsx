@@ -12,8 +12,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Theme>
-        <AppRoutes />
-        <GlobalStyle />
+        <Routes />
         <Normalize />
       </Theme>
     </BrowserRouter>
