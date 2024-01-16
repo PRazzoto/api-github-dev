@@ -1,14 +1,13 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const Container = styled.main `
+export const Container = styled.main`
   display: flex;
   min-height: 100vh;
 
-  @media screen and (max-width:${(props) => props.theme.breakpoints.md}) {
+  @media screen and (max-width: ${(props) => props.theme.breakpoints.md}) {
     flex-direction: column;
   }
-  `;
-
+`;
 
 export const Sidebar = styled.aside`
   background: ${(props) => props.theme.colors.background};
@@ -24,9 +23,11 @@ export const Main = styled.section`
   padding: 40px;
   overflow-y: hidden;
 
-  @media screen and (max-width:${(props) => props.theme.breakpoints.sm}) {
-    height: 100%;}
+  @media screen and (max-width: ${(props) => props.theme.breakpoints.sm}) {
+    height: 100%;
+  }
 
-    @media screen and (max-width:${(props) => props.theme.breakpoints.sm}) {
-    padding: 40px 20px;}
+  @media screen and (max-width: ${(props) => props.theme.breakpoints.sm}) {
+    padding: 40px 20px;
+  }
 `;

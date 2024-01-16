@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { Link } from 'react-router-dom'
-
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   display: flex;
@@ -10,7 +9,6 @@ export const Container = styled.div`
   text-align: center;
   min-height: 100vh;
   padding: 0 2rem;
-
 `;
 
 export const Logo = styled.img`
@@ -22,7 +20,7 @@ export const Title = styled.h1`
   color: ${(props) => props.theme.colors.text};
 `;
 
-export const Form = styled.div `
+export const Form = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,7 +28,7 @@ export const Form = styled.div `
   max-width: 583px;
 `;
 
-export const Input = styled.input `
+export const Input = styled.input`
   background: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 64px;
@@ -40,12 +38,12 @@ export const Input = styled.input `
   margin-right: 24px;
   padding: 0 24px;
 
-  &::placeholder{
+  &::placeholder {
     color: ${(props) => props.theme.colors.metalDark};
   }
 `;
 
-export const Button = styled(Link) `
+export const Button = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +54,7 @@ export const Button = styled(Link) `
   border: 3px solid color ${(props) => props.theme.colors.text};
   transition: background 0.3s;
 
-  &:hover{
+  &:hover {
     background: ${(props) => props.theme.colors.container};
   }
 `;

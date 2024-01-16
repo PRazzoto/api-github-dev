@@ -36,14 +36,25 @@ export const theme = {
     primary: "#F83600",
     secondary: "#FE8C00",
     background: "#191919",
-    container: "#2d2d2d"
+    container: "#2d2d2d",
+
+    danger: "#f37272",
+    light: "#ecf0f1",
+    dark: "#233240",
+    text: "#fff",
+    link: "#3498db",
   },
   fontFamily: {
     heading: ["IBM Plex Sans", "sans-serif"].join(","),
     sans: ["Open Sans", "Arial", "Helvetica", "sans-serif"].join(","),
     mono: ["IBM Plex Mono", "serif"].join(","),
   },
-  fontSize: {
+  fontSizes: {
+    small: ".8rem",
+    normal: "1rem",
+    large: "1.2rem",
+    title: "1.3rem",
+    subtitle: "1.25rem",
     xs: rem(10),
     sm: rem(12),
     md: rem(14),
@@ -55,13 +66,13 @@ export const theme = {
     "4xl": rem(40),
     "5xl": rem(64),
   },
-  breakpoints:{
-    xs: '0',
-    sm: '576px',
-    md: '768px',
-    lg: '992px',
-    xl: '1200px',
-    xxl: '1400px',
+  breakpoints: {
+    xs: "0",
+    sm: "576px",
+    md: "768px",
+    lg: "992px",
+    xl: "1200px",
+    xxl: "1400px",
   },
 };
 
