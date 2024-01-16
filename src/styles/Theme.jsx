@@ -34,6 +34,7 @@ export const theme = {
     gray800: "#1D1E21",
     gray900: "#141518",
     primary: "#F83600",
+    champagneDark: "#bdc3c7",
     secondary: "#FE8C00",
     background: "#191919",
     container: "#2d2d2d",
