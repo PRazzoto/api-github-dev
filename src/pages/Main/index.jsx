@@ -18,7 +18,7 @@ function Main() {
           value={login}
           onChange={(event) => setLogin(event.target.value)}
         />
-        <Button to={`/${login}repositories`}>
+        <Button to={`/${login}/repositories`}>
           <MdSearch size={42} />
         </Button>
       </Form>

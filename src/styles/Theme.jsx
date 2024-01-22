@@ -42,7 +42,7 @@ export const theme = {
     danger: "#f37272",
     light: "#ecf0f1",
     dark: "#233240",
-    text: "#fff",
+    text: "#FFFFFF",
     link: "#3498db",
   },
   fontFamily: {
